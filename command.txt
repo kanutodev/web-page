@@ -1,0 +1,45 @@
+git pull 
+
+git clone "url"
+
+git status
+
+git add * -'if all' 1
+
+git add "your file"
+
+git commit -m " 'type your message' " 2
+
+git push "publish to master branch" 3
+
+git revert "commit number"
+
+git log - look for commit number and 
+
+
+===============
+
+fork
+
+upstream - root of origin file
+
+upstream branch
+
+git remote -v
+
+git set upstream
+
+git branch
+dev
+
+git checkout dev
+switched to branch dev
+
+git pull --go inside the folder the git pull
+
+git pull upstream
+
+git pull upstream master
+
+git checkout -b features/deletenav
+
