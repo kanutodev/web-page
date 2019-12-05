@@ -58,7 +58,7 @@
       <!-- <div class="navbar-translate"---- this is the default   > -->
       <div class="navbar">
         <a class="navbar-brand" href="#" rel="tooltip" title="The pop-up is defaul on template" data-placement="bottom" >
-          <img src="./extra img/logo.png" class="img-fluid" alt="Responsive image">
+          <!-- <img src="./extra img/logo.png" class="img-fluid" alt="Responsive image"> -->
           Logo Here
         </a>
         <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -168,7 +168,7 @@
               <p class="p-menu blockquote blockquote-primary">Asian-style soup made with pork, with pork fillet, mushrooms, egg and green veggies.</p>
             </div>  
             <div class="col-6">
-              <img src="./extra img/beef-noodles.jpg" class="rounded img-raised float-left" alt="...">
+              <img src="./extra img/pork-noodles.jpeg" class="rounded img-raised float-left" alt="...">
             </div>
           </div>
         </div>
@@ -186,12 +186,14 @@
     <div class="main page-header-image" style="">
       <div class="">
         <div calss="content-center brand">
-          <div class="row" style="margin: 2rem 2rem 2rem 2rem">
-            <div class="row" style="margin: 2rem 2rem 0rem 2rem">
-              <h1>The Company Profile</h1>
+          <div class="col-12" style="margin: 2rem 2rem 2rem 2rem">
+            <br>
+            <br>
+            <div class="text-center shadow-lg p-3 mb-5 rounded" style="margin: 0rem 5rem 0rem 2rem;">
+              <h1 style="margin-top: 2rem;">Company Profile</h1>
             </div>
             <!-- The founder -->
-            <div class="row" style="margin: 0rem 2rem 2rem 2rem">
+            <div class="row d-flex" style="margin: 0rem 2rem 2rem 2rem">
 
               <div class="col-4">
                 <img src="./extra img/profile-man.png" alt="Raised Image" class="rounded img-raised" style="height: 10rem; width: 10rem; float: left; margin: 0rem 2rem .5rem 0rem;">
@@ -313,7 +315,7 @@
 
       if ($('.aboutus').length != 0) {
         $("html, body").animate({
-          scrollTop: $('.aboutus').offset().top
+          scrollTop: $('.aboutus').offset().top - $('nav').height()
         }, 1000);
       }
     }
@@ -322,7 +324,7 @@
 
       if ($('.menu').length != 0) {
         $("html, body").animate({
-          scrollTop: $('.menu').offset().top
+          scrollTop: $('.menu').offset().top - $('nav').height()
         }, 1000);
       }
     }
@@ -331,7 +333,7 @@
 
       if ($('.page-header').length != 0) {
         $("html, body").animate({
-          scrollTop: $('.page-header').offset().top
+          scrollTop: $('.page-header').offset().top - $('nav').height()
         }, 1000);
       }
     }
