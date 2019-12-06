@@ -3521,6 +3521,7 @@ h4,
 h5,
 h6 {
     font-weight: 400;
+    text-align: center;
 }
 
 small {
@@ -5543,6 +5544,10 @@ img {
     margin-top: 15px;
     background-color: transparent;
     border: 0;
+}
+
+.card[data-background-color="transparent"] {
+    background-color: #f5efed40;
 }
 
 .card[data-background-color="orange"] {
