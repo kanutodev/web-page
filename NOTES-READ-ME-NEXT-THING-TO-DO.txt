@@ -1,0 +1,3 @@
+note: mark done if it is done
+
+create media query for each screen size, and need some help at the beef photo.

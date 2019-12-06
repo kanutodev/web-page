@@ -37,7 +37,14 @@
   <link href="./assets/demo/demo.css" rel="stylesheet" />
 
   <style type="text/css">
-
+  	@media (max-width:768px) {
+  		.item-1 {
+	      order:2; /* default is 0 */
+	    }
+	    .item-2 {
+	      order:1; /* default is 0 */
+	    }
+	}
     h1 .h1-head {
       font-family: sans-serif;
     }
@@ -151,13 +158,13 @@
           <!-- end 1st row -->
 
           <!-- second row menu -->
-        <div class="row">
-          <div class="row">
+        <div class="row" class="justify-content-center">
+          <div class="row" class="">
             <!-- <img src="./extra img/beef-noodle-soup-16.jpg" alt=""> -->
             <div class="col-md-6">
-              <img src="./extra img/beef-noodles.jpg" class="img-fluid" alt="Responsive image">
+              <img src="./extra img/beef-noodles.jpg" class="img-fluid rounded img-raised float-left" alt="...">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 justify-content-center">
               <h3 class="shadow-lg p-3 mb-5 rounded">Beef Chinese Noddles</h3>
               <p class="p-menu blockquote blockquote-primary">Classic Chiese bee broth with red braised beef, mushrooms, egg and green veggies.</p>
             </div>  
@@ -168,14 +175,14 @@
 <br>
           <!-- third row menu -->
         <div class="row" style="margin-top: 3rem;">
-          <div class="row">
+          <div class="row pork-noodles">
             <!-- <img src="./extra img/beef-noodle-soup-16.jpg" alt=""> -->
-            <div class="col-md-6">
+            <div class="col-md-6 item-1">
               <h3 class="shadow-lg p-3 mb-5 rounded">Pork Chinese Noddles</h3>
               <p class="p-menu blockquote blockquote-primary">Asian-style soup made with pork, with pork fillet, mushrooms, egg and green veggies.</p>
             </div>  
-            <div class="col-md-6">
-              <img src="./extra img/pork-noodles.jpeg" class="rounded img-raised float-left" alt="...">
+            <div class="col-md-6 item-2">
+              <img src="./extra img/pork-noodles.jpeg" class="rounded img-raised float-left" alt="Responsive image">
             </div>
           </div>
         </div>
