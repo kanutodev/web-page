@@ -1,0 +1,42 @@
+@media screen and (max-width: 991px)
+
+@media screen and (min-width: 992px)
+
+@media screen and (min-width: 768px)
+
+@media screen and (max-width: 768px)
+
+@media screen and (max-width: 576px)
+
+@media screen and (min-width: 991px) and (max-width: 1200px)
+
+@media screen and (max-width: 768px)
+
+@media screen and (max-width: 517px)
+
+@media screen and (min-width: 1200px)
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
+
+@media screen and (max-width: 580px)
+
+@media only screen and (min-height: 950px)
+
+
+
+wide screen
+img {
+  position: ;
+  left: 0px;
+  top: 0px;
+  z-index: ;
+}
+
+@media query
+
+img {
+  position: absolute ;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
