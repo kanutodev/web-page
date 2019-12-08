@@ -7313,6 +7313,22 @@ img {
     .alert .alert-icon {
         margin-top: 10px;
     }
+
+        .item- 1 {
+          order:2; /* default is 0 */
+        }
+
+        .item-2 {
+          order:1; /* default is 0 */
+        }
+
+      div.menu-page h3 {
+        font-size: 1.5rem;
+      }
+
+      div.menu-page p {
+        font-size: 1.2rem;
+      }
 }
 
 @media screen and (min-width: 1200px) {
