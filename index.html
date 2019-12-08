@@ -37,18 +37,29 @@
   <link href="./assets/demo/demo.css" rel="stylesheet" />
 
   <style type="text/css">
-  	@media (max-width:768px) {
+  	@media (max-width: 768px) {
   		.item- 1 {
 	      order:2; /* default is 0 */
 	    }
+
 	    .item-2 {
 	      order:1; /* default is 0 */
 	    }
-      div.beef-ndl h3.beef-ndl {
-        font-size: 1rem;
-      }
-	}
 
+      div.menu-page h3 {
+        font-size: 1.5rem;
+      }
+
+      div.menu-page p {
+        font-size: 1.2rem;
+      }
+
+/*      div.row-odd-col1, div.row-odd-col1 {
+        padding: 10px 10px 10px 10px;
+        margin: 10px 10rem 10rem 10px;
+      }*/
+	}
+/*----end of max-width:768px------ */
 
     h1 .h1-head {
       font-family: sans-serif;
@@ -150,10 +161,10 @@
   </div>
   <!-- End of Header -->
   <!-- Start of Menu -->
-  <div class="menu contents">
-    <div class="main page-header-image " style="background-image:url('./extra img/web-tarp-noodles.jpg');">
+  <div class="menu-page contents">
+    <div class="main page-headert" style="background-image:url('./extra img/web-tarp-noodles.jpg');">
     <!-- <div class="main page-header-image " style="background-image:url('./extra img/web-tarp-noodles.jpg');"> -->
-      <div class="container ">
+      <div class="col-md-12">
 <br>
 <br>
           <!-- First row Menu  Head Menu -->
@@ -166,21 +177,21 @@
         <div class="row" class="justify-content-center">
           <div class="col-md-6 beef-ndl">
             <!-- <img src="./extra img/beef-noodle-soup-16.jpg" alt=""> -->
-            <div class="">
-              <img src="./extra img/beef-noodles.jpg" class="img-fluid rounded img-raised float-left" alt="..." style="width: 50%; height: 50%;">
+            <div class="odd-row-col1">
+              <img src="./extra img/beef-noodles.jpg" class="img-fluidrounded img-raised float-left" alt="...">
             </div>
-            <div class="justify-content-center">
-              <h3 class="shadow-lg p-3 mb-5 rounded beef-ndl"style="">Beef Chinese Noddles</h3>
+            <div class="odd-row-col2 justify-content-center" style="margin-left: 26rem;">
+              <h3 class="shadow-lg p-3 mb-5 rounded">Beef Chinese Noddles</h3>
               <p class="p-menu blockquote blockquote-primary">Classic Chiese bee broth with red braised beef, mushrooms, egg and green veggies.</p>
-            </div>  
+            </div>    
           </div>
 
           <div class="col-md-6" class="">
             <!-- <img src="./extra img/beef-noodle-soup-16.jpg" alt=""> -->
             <div class="">
-              <img src="./extra img/beef-noodles.jpg" class="img-fluid rounded img-raised float-left" alt="..." style="width: 50%; height: 50%;">
+              <img src="./extra img/beef-noodles.jpg" class="img-fluid rounded img-raised float-left" alt="...">
             </div>
-            <div class=" justify-content-center">
+            <div class=" justify-content-center" style="margin-left: 26rem;">
               <h3 class="shadow-lg p-3 mb-5 rounded">Beef Chinese Noddles</h3>
               <p class="p-menu blockquote blockquote-primary">Classic Chiese bee broth with red braised beef, mushrooms, egg and green veggies.</p>
             </div>  
@@ -272,6 +283,7 @@
                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 
               </div>
+              
               <div class="col-md-9" style="margin: 2rem 0rem 2rem 0rem">
                 <div class="mapouter">
                   <div class="gmap_canvas">
