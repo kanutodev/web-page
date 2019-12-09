@@ -1,0 +1,81 @@
+.display-5 {
+    font-size: 2rem;
+    font-weight: 100;
+    line-height:1.2 
+}
+
+@media screen and (max-width: 992px) {
+        div.cat-div {
+        padding: auto;
+        font-size: 10px;
+        height: 6rem;
+        width: auto;
+      }
+
+}
+
+    /*@media (max-width: 768px)*/
+    @media screen and (max-width: 580px), (max-device-width: 768px) {
+
+      div.cat-div {
+        padding: auto;
+        font-size: 8px;
+        height: 6rem;
+        width: auto;
+      }
+
+      div.cat-div h1 {
+        padding: 1rem!important;
+      }
+
+ 		.item- 1 {
+	      order:2; /* default is 0 */
+	    }
+
+	    .item-2 {
+	      order:1; /* default is 0 */
+	    }
+
+      div.menu-page h3 {
+        font-size: 1.5rem;
+      }
+
+      div.menu-page p {
+        font-size: 1.2rem;
+      }
+      div.menu-page img{
+        height: 20%;
+        width: 20%;
+      }
+      div.odd-row-col2 {
+        top:;
+        margin-right: 25rem;
+      }
+/*     div.beef-ndl div.odd-row-col1 {
+        margin-left: 0rem;
+      }
+
+      div.beef-ndl div.odd-row-col2 {
+        margin-left: 0rem;
+      }
+*/
+
+/*      div.row-odd-col1, div.row-odd-col1 {
+        padding: 10px 10px 10px 10px;
+        margin: 10px 10rem 10rem 10px;
+      }*/
+
+      div.menu-page img {
+        width: 10rem;
+        height: 10rem;
+      }
+	}
+/*----end of max-width:768px------ */
+
+    h1 .h1-head {
+      font-family: sans-serif;
+    }
+
+    .contents{
+      margin:1.5% 0% 1.5% 0%  ;
+    }
