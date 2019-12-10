@@ -1,7 +1,17 @@
 .display-5 {
     font-size: 2rem;
     font-weight: 100;
-    line-height:1.2 
+/*    line-height:1.2 */
+}
+
+.menu-item {
+  margin:5rem;
+}
+
+div.col-md-4 p.p-content {
+  width: 20rem;
+  font-size: 1.3rem;
+  font-weight:300;
 }
 
 @media screen and (max-width: 992px) {
